@@ -1,9 +1,59 @@
-@import url(http://fonts.googleapis.com/css?family=Oleo+Script); //placeholders for syntax in case an imported font is used.
-@import url(http://fonts.googleapis.com/css?family=Ruluko);
+
+@import url(http://fonts.googleapis.com/css?family=Oxygen:400,300,700);
 
 body {
-  font-family: 'importedFontName', sans-serif; //example of how to import a font.
-  margin: 0px auto;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
   text-align: center;
   width: 700px;
+}
+
+h2 {
+  text-align: left;
+}
+
+.header {
+  margin: 5px 5px 5px 5px;
+  padding: 0px 0px 0px 0px;
+}
+
+.title {
+  color: #006000;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 50px;
+  padding: 0
+}
+
+.question {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 24px;
+  background-color: #006000;
+  border: 1px solid #006000;
+  border-radius: 15px;
+  display: inline-block;
+  margin: 50px 50px 50px 50px;
+  padding: 10px 10px 10px 10px;
+  width: 500px;
+}
+
+questionText {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 24px;
+}
+
+.answer {
+  background-color: #E53535;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 50px;
+  margin: 5px 5px 5px 5px;
+  padding: 25px 25px 25px 25px;
+}
+
+.incorrect {
+  background-color: #F52F4F;
+  color: #FFFFFF;
 }
