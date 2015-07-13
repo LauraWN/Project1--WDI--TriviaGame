@@ -1,0 +1,9 @@
+@import url(http://fonts.googleapis.com/css?family=Oleo+Script); //placeholders for syntax in case an imported font is used.
+@import url(http://fonts.googleapis.com/css?family=Ruluko);
+
+body {
+  font-family: 'importedFontName', sans-serif; //example of how to import a font.
+  margin: 0px auto;
+  text-align: center;
+  width: 700px;
+}
