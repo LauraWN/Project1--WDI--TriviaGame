@@ -1,19 +1,25 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <title>Trivia Extravaganza!</title>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="trivia.css">
+    <title>Trivia Extravaganza!</title>
   </head>
   <body>
-    <div class="header">
-      <div></div>
+  <script src="trivia.js"></script>
+    <h1>Trivia Extravaganza!</h1>
+      <h2>Question:</h2>
+      <span id="triviaQuestion">#triviaQuestion</span>
+      <p></p>
+      <div class="question">
+      <p></p>
+            <input id="radioTrue" type="radio" value="true" name="answer" checked="checked"/> True<p></p>
+            <input id="radioFalse" type="radio" value="false" name="answer"/> False<p></p>
+      <p>
+            <input id="buttonContinue" onclick="checkAnswer();" type="button" value="Next Question"/>
+      </p>
     </div>
-
-
-    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
-    <script src="trivia.js"></script>
+      <h2>Score:</h2>
+      <p>You answered <span id="numberAsked">1</span> of 10 questions total with <span id="numberCorrect">0</span> answers correct.</p>
   </body>
-  <footer>
-  </footer>
 </html>

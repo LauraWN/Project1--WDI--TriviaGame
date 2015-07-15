@@ -9,40 +9,41 @@ body {
   text-align: center;
   width: 700px;
 }
-
+h1 {
+  font-family: 'Oxygen', sans-serif;
+  color: #006000;
+  text-align: center
+}
 h2 {
+  font-family: 'Oxygen', sans-serif;
+  color: #006000;
   text-align: left;
 }
-
 .header {
   margin: 5px 5px 5px 5px;
   padding: 0px 0px 0px 0px;
 }
-
 .title {
   color: #006000;
-  font-family: 'Oxygen', sans-serif;
   font-size: 50px;
   padding: 0
 }
-
 .question {
-  font-family: 'Oxygen', sans-serif;
+  font-weight: normal;
   font-size: 24px;
   background-color: #006000;
-  border: 1px solid #006000;
+  border: 1px solid;
   border-radius: 15px;
   display: inline-block;
-  margin: 50px 50px 50px 50px;
+  margin: 0px 0px 0px 0px;
   padding: 10px 10px 10px 10px;
   width: 500px;
 }
-
-questionText {
+span#triviaQuestion {
   font-family: 'Oxygen', sans-serif;
-  font-size: 24px;
+  font-size: 14px;
+  font-weight: normal;
 }
-
 .answer {
   background-color: #E53535;
   border: 1px solid #000000;
@@ -52,8 +53,12 @@ questionText {
   margin: 5px 5px 5px 5px;
   padding: 25px 25px 25px 25px;
 }
+input#buttonContinue {
+  color: #006000;
+}
+span#numberAsked {
 
-.incorrect {
-  background-color: #F52F4F;
-  color: #FFFFFF;
+}
+span#numberCorrect {
+
 }
